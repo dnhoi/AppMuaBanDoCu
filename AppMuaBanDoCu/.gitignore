@@ -1,0 +1,40 @@
+# Built application files
+**/build/
+*.apk
+*.aab
+
+# Gradle files
+**/.gradle/
+build/
+
+# Local configuration file (contains SDK paths and personal machine settings)
+**/local.properties
+
+# Log files
+*.log
+
+# Android Studio, IntelliJ IDEA and Kotlin caches
+**/.idea/
+**/.kotlin/
+*.iml
+*.iws
+*.ipr
+out/
+captures/
+*.hprof
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# C/C++ build caches
+**/.cxx/
+**/.externalNativeBuild/
+
+# Signing keys and Keystores
+*.keystore
+*.jks
+
+# Firebase credentials (protect API keys from leaking to Git; keep example template only)
+**/google-services.json
+!**/google-services.json.example
